@@ -1,0 +1,14 @@
+.btn {
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1.4rem;
+  @include transition;
+  &--secondary {
+    background-color: $color-secondary;
+    color: $color-light;
+    &:hover {
+      background-color: $color-secondary-d;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.upsale {
+  &__wrapper {
+    max-width: 120rem;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  &__content {
+    align-self: center;
+    span {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: clamp(2rem, 5vw, 8rem);
+      line-height: 1;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

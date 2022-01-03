@@ -1,0 +1,9 @@
+.footer {
+  background-color: $color-primary;
+  color: $color-light;
+  &__wrapper {
+    padding: 1.3rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}

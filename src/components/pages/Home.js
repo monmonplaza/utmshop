@@ -1,16 +1,18 @@
 import React from "react";
+import BookList from "../books/BookList";
 import Footer from "../Footer";
 import Header from "../Header";
-import Upsale from "../Upsale";
+import Hero from "../Hero";
 
-const Shop = () => {
+const Home = () => {
   return (
     <>
       <Header />
-      <Upsale />
+      <Hero />
+      <BookList />
       <Footer />
     </>
   );
 };
 
-export default Shop;
+export default Home;
